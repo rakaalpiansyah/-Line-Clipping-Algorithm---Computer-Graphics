@@ -1,0 +1,5 @@
+# Library utama untuk visualisasi grafis interaktif
+matplotlib>=3.8.0
+
+# Library dasar untuk komputasi numerik (biasanya terinstall otomatis bersama matplotlib)
+numpy>=1.24.0
