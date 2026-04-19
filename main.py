@@ -18,8 +18,6 @@ class ClippingApp:
         # Metadata Header
         fig.text(0.5, 0.95, "Tugas Grafika Komputer: Line Clipping Implementation", 
                  ha='center', fontsize=16, fontweight='bold', color='#2C3E50')
-        fig.text(0.5, 0.91, f"Nama: Raka Alpiansyah | NIM: 1237050112 | Informatika UIN Sunan Gunung Djati", 
-                 ha='center', fontsize=10, color='#7F8C8D')
 
         for ax, (name, clipper) in zip(axes, self.clippers.items()):
             self._setup_plot(ax, name)
